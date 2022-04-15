@@ -1,0 +1,61 @@
+a {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 1.5rem 2rem;
+  font-size: 1.6rem;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  color: rgba(128, 128, 128, 0.6);
+  border: 1px solid rgba(128, 128, 128, 0.6);
+  transition: all 0.4s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary {
+  background-color: rgba(128, 128, 128, 0.6);
+  border: 1px solid black;
+  color: black;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 2rem;
+}
+.u-margin-bottom-medium {
+  margin-bottom: 4rem;
+}
+.u-margin-bottom-large {
+  margin-bottom: 8rem;
+}
+.u-margin-top-small {
+  margin-top: 2rem;
+}
+.u-margin-top-medium {
+  margin-top: 4rem;
+}
+.u-margin-top-large {
+  margin-top: 8rem;
+}
+
+.heading-primary {
+  font-size: 3.8rem;
+  font-weight: 700;
+  padding: 2rem;
+}
+
+.heading-secondary {
+  font-size: 3rem;
+  font-weight: 100;
+}

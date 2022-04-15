@@ -1,0 +1,46 @@
+.landing-page {
+  height: 100vh;
+  width: 100%;
+}
+
+.logo {
+  width: 3%;
+}
+
+.landing-page-container {
+  margin: 0 auto;
+  height: 100%;
+}
+
+.navbar {
+  height: 10%;
+  top: 0;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing-page-content-container {
+  background-color: white;
+  width: 60%;
+  margin: 0 auto;
+  height: 100%;
+  text-align: center;
+}
+
+.personal-image {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.devices-mockup {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: -10rem;
+}
+
+.mockup-svg {
+  width: 100%;
+}
