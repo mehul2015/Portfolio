@@ -7,7 +7,7 @@ const LandingPage = () => {
     <div className='landing-page'>
       <div className='landing-page-container'>
         <nav className='navbar'>
-          <img src='./images/mf-logo.svg' alt='my logo' className='logo' />
+          <img src='./images/logo.png' alt='my logo' className='logo' />
           <a href='redirectToForm' className='btn btn-primary'>
             Say Hello
           </a>
