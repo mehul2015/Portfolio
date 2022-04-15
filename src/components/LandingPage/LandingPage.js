@@ -16,14 +16,18 @@ const LandingPage = () => {
         <div className='landing-page-content-container'>
           <div className='heading u-margin-top-medium'>
             <h1 className='heading-primary'>
-              Designer and Full Stack Developer
+              Designer &#38; Full Stack Developer.
             </h1>
             <h2 className='heading-secondary u-margin-bottom-large'>
-              I like coding,coffee and clouds
+              I like coding, coffee and clouds.
             </h2>
           </div>
-          <div className='personal-image'>
-            <img src='./images/mf-avatar.svg' alt='this will be my image' />
+          <div className='personal-image-container'>
+            <img
+              src='./images/avatar.jpg'
+              alt='this will be my image'
+              className='personal-image'
+            />
           </div>
 
           <div className='devices-mockup'>
