@@ -50,17 +50,51 @@ a {
   margin-top: 8rem;
 }
 
+.heading {
+  font-family: inherit;
+}
+
 .heading-primary {
   font-size: 3.8rem;
   font-weight: 700;
   padding: 2rem;
-  font-family: inherit;
+  letter-spacing: 0.3rem;
+}
+
+.heading-primary-about {
+  font-size: 3.8rem;
+  font-weight: 700;
+  padding: 2rem;
+
   letter-spacing: 0.3rem;
 }
 
 .heading-secondary {
-  font-size: 2.7rem;
+  font-size: 2.4rem;
   font-weight: 300;
   letter-spacing: 0.2rem;
-  font-family: 'Lato', sans-serif;
 }
+
+.heading-primary-gradient {
+  font-size: 4rem;
+  font-weight: 700;
+
+  padding: 2rem;
+  letter-spacing: 0.3rem;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(48, 207, 208, 1) 11.2%,
+    rgba(51, 8, 103, 1) 92.5%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline-block;
+  color: transparent;
+  transition: all 0.4s;
+}
+
+/* .heading-primary-gradient:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.2);
+  text-decoration: underline;
+} */

@@ -1,6 +1,7 @@
 .landing-page {
   height: 100vh;
   width: 100%;
+  border-bottom: 1px dashed rgba(131, 127, 127, 0.3);
 }
 
 .logo {
@@ -48,7 +49,7 @@
 }
 
 .personal-image {
-  width: 20rem;
+  width: 19.5rem;
 }
 
 .devices-mockup {
