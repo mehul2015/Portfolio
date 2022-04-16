@@ -6,6 +6,7 @@
   border-bottom-width: 1px;
   border-bottom-color: rgba(131, 127, 127, 0.3);
   border-bottom-style: dashed;
+  /* overflow: hidden; */
 }
 
 .about-me-container {
@@ -34,8 +35,9 @@
 
 .skills-card-container {
   background-color: white;
+
   width: 75%;
-  height: 80%;
+  height: 75%;
   position: absolute;
   top: 50%;
   left: 50%;

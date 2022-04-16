@@ -1,0 +1,91 @@
+.modal-background {
+  height: 100vh;
+  width: 100%;
+  /* background: url(../../../../public/images/modal-background.avif); */
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.5rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-container {
+  width: 50%;
+  height: 70%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  position: fixed;
+}
+
+.modal-heading {
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 2rem;
+  letter-spacing: 0.3rem;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(69, 86, 102, 1) 0%,
+    rgba(34, 34, 34, 1) 90%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline-block;
+  color: transparent;
+}
+
+.modal-content {
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: inherit;
+  padding: 2rem;
+  /* background-color: green; */
+  height: 70%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: -2rem;
+  /* outline: 0.6px dashed rgba(76, 74, 74, 0.3);
+  outline-offset: 3rem;
+  border-radius: 5px; */
+}
+
+.modal-button {
+  padding: 2rem 4rem;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(69, 86, 102, 1) 0%,
+    rgba(34, 34, 34, 1) 90%
+  );
+  border-radius: 30px;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.6);
+  transition: all 0.4s;
+}
+
+.modal-button:hover {
+  cursor: pointer;
+  transform: translateY(-0.9rem);
+  box-shadow: 0 1.2rem 2rem rgba(0, 0, 0, 0.6);
+}
+
+.modal-button:active {
+  transform: translateY(0);
+  box-shadow: 0 1.1rem 3rem rgba(0, 0, 0, 0.6);
+}
+
+.skill-image {
+  width: 8rem;
+}

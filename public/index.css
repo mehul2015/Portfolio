@@ -15,6 +15,14 @@ html {
   /* overflow: hidden; */
 }
 
+#root {
+  overflow: hidden;
+}
+
+#portal {
+  overflow: hidden;
+}
+
 body {
   box-sizing: border-box;
   padding: 4rem;

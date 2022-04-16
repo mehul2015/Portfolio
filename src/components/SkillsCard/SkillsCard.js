@@ -7,7 +7,13 @@ import { AttentionSeeker } from 'react-awesome-reveal';
 
 function SkillsCard(props) {
   return (
-    <div className={props.className}>
+    <div
+      className={props.className}
+      onClick={() => {
+        props.onClick();
+        props.sendData(props.title, props.skills);
+      }}
+    >
       <div className='icon-container'>
         <AttentionSeeker effect='tada' delay={500} duration={5000}>
           <img src={props.icon} alt='icon' className='icon' />
