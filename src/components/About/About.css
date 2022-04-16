@@ -1,5 +1,5 @@
 .about-me {
-  height: 110vh;
+  height: 100vh;
   /* background-color: black; */
   position: relative;
   /* padding: 2rem; */
@@ -53,19 +53,19 @@
 }
 
 .span-1 {
-  border-bottom: 2px solid #9adcff;
+  background: #9adcff;
 }
 
 .span-2 {
-  border-bottom: 2px solid #fff89a;
+  background: #fff89a;
 }
 
 .span-3 {
-  border-bottom: 2px solid #ffb2a6;
+  background: #ffb2a6;
 }
 
 .span-4 {
-  border-bottom: 2px solid #ff8aae;
+  background: #7cbc20;
 }
 
 .span-1::selection {
@@ -79,5 +79,5 @@
 }
 
 .span-4::selection {
-  background: #ff8aae;
+  background: #7cbc20;
 }
