@@ -1,13 +1,16 @@
 .about-me {
-  height: 95vh;
+  height: 110vh;
   /* background-color: black; */
   position: relative;
   /* padding: 2rem; */
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(131, 127, 127, 0.3);
+  border-bottom-style: dashed;
 }
 
 .about-me-container {
   width: 70%;
-  height: 90%;
+  height: 95%;
   /* background-color: white; */
   position: absolute;
   top: 50%;
@@ -22,6 +25,13 @@
   padding: 2rem;
 }
 
+.heading-secondary-container {
+  height: 20%;
+  width: 53%;
+  /* background-color: black; */
+  margin: 0 auto;
+}
+
 .skills-card-container {
   background-color: white;
   width: 75%;
@@ -30,8 +40,44 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 8rem;
+  margin-top: 14rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.empty-space {
+  background-color: black;
+  height: 3%;
+  width: 40%;
+}
+
+.span-1 {
+  border-bottom: 2px solid #9adcff;
+}
+
+.span-2 {
+  border-bottom: 2px solid #fff89a;
+}
+
+.span-3 {
+  border-bottom: 2px solid #ffb2a6;
+}
+
+.span-4 {
+  border-bottom: 2px solid #ff8aae;
+}
+
+.span-1::selection {
+  background: #9adcff;
+}
+.span-2::selection {
+  background: #fff89a;
+}
+.span-3::selection {
+  background: #ffb2a6;
+}
+
+.span-4::selection {
+  background: #ff8aae;
 }

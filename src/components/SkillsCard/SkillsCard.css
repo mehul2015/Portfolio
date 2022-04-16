@@ -1,12 +1,12 @@
 .skills-card {
   /* background-color: black; */
-  height: 89%;
+  height: 85%;
   width: 22%;
   color: black;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-items: center; */
   font-size: 3rem;
   border-radius: 10px;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
@@ -31,7 +31,7 @@
   );
 
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  height: 40%;
+  height: 42%;
   position: absolute;
   top: 0;
   display: flex;
@@ -42,5 +42,39 @@
   height: 9rem;
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(152deg)
     brightness(103%) contrast(103%);
-  /* To change colour from black to white, used an online tool */
+}
+
+.skills-title {
+  text-align: right;
+  text-transform: capitalize;
+  text-decoration: underline black solid;
+  position: absolute;
+  right: 1rem;
+  top: 20rem;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  font-size: 3.3rem;
+  font-weight: 400;
+}
+
+.skills-list-container {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  text-align: center;
+  bottom: 0;
+  /* background-color: black; */
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 3rem;
+}
+
+.skills-list {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }

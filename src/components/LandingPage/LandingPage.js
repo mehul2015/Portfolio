@@ -2,13 +2,16 @@ import React from 'react';
 import './LandingPage.css';
 import '../../globals.css';
 
+// import { AttentionSeeker } from 'react-awesome-reveal';
+// import { Fade } from 'react-awesome-reveal';
+
 const LandingPage = () => {
   return (
-    <div className='landing-page'>
+    <div className='landing-page' id='home'>
       <div className='landing-page-container'>
         <nav className='navbar'>
           <img src='./images/logo.png' alt='my logo' className='logo' />
-          <a href='redirectToForm' className='btn btn-primary'>
+          <a href='#home' className='btn btn-primary'>
             Say Hello
           </a>
         </nav>
