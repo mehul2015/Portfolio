@@ -80,7 +80,7 @@
 }
 
 .modal-skills-title {
-  /* margin-left: 4rem; */
+  margin-left: 4rem;
   /* width: 33%; */
   font-family: inherit;
   font-weight: 400;
@@ -88,7 +88,7 @@
 }
 
 .modal-skills-rating {
-  font-weight: 400;
+  font-weight: 700;
   margin-top: 1rem;
   height: 50%;
   width: 12%;
@@ -99,7 +99,8 @@
   /* box-shadow: 0 1rem 2rem rgba(34, 34, 34, 0.5); */
   letter-spacing: 0.5rem;
   font-size: 5rem;
-  background-image: linear-gradient(to right, #24c6dc, #514a9d);
+  background-image: linear-gradient(to right, #1cd8d2, #93edc7);
+  /* background-image: linear-gradient(to right, #1fa2ff, #a6ffcb); */
   display: inline-block;
   -webkit-background-clip: text;
   background-clip: text;
