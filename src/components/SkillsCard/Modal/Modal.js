@@ -8,15 +8,22 @@ function Modal(props) {
     <div className='modal-background'>
       <div className='modal-container'>
         <div className='modal-heading'>{props.title}</div>
-        <div className='modal-content'>
+        <div className='modal-content-container'>
           {props.skills.map((skill) => {
             return (
-              <div className='modal-skill'>
-                <img src={skill} className='skill-image' />
+              <div className='modal-content'>
+                <div className='modal-skills'>
+                  <img src={skill.link} className='skill-image' />
+                </div>
+                <div className='modal-skills-title'>
+                  <p>{skill.name}</p>
+                </div>
+                <div className='modal-skills-rating'>{skill.rating}</div>
               </div>
             );
           })}
         </div>
+
         <div className='modal-button' onClick={props.onClose}>
           Close
         </div>

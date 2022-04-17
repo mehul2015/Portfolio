@@ -37,12 +37,12 @@
   background-color: white;
 
   width: 75%;
-  height: 75%;
+  height: 79%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 14rem;
+  margin-top: 12rem;
   display: flex;
   align-items: center;
   justify-content: space-around;

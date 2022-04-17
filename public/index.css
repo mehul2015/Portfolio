@@ -12,18 +12,25 @@ html {
   /* Setting default font size to 10px for easier conversion to rem */
   scroll-behavior: smooth;
   font-family: 'Lato', sans-serif;
-  /* overflow: hidden; */
 }
 
-#root {
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* #root {
   overflow: hidden;
 }
 
-#portal {
-  overflow: hidden;
-}
+
 
 body {
   box-sizing: border-box;
   padding: 4rem;
+} 
+
+*/
+
+#portal {
+  overflow: hidden;
 }

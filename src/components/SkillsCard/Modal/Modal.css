@@ -1,8 +1,9 @@
 .modal-background {
-  height: 100vh;
+  height: 110vh;
   width: 100%;
-  /* background: url(../../../../public/images/modal-background.avif); */
-  background-color: white;
+  background: url(../../../../public/images/modal-background.jpg);
+  background-size: cover;
+  /* background-color: white; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,17 +12,18 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  overflow: hidden;
 }
 
 .modal-container {
-  width: 50%;
-  height: 70%;
+  width: 60%;
+  height: 80%;
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  border-radius: 5px;
+  border-radius: 10px;
   position: fixed;
 }
 
@@ -42,26 +44,70 @@
   color: transparent;
 }
 
+.modal-content-container {
+  height: 70%;
+  width: 100%;
+  /* background-color: green; */
+  margin-top: -4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .modal-content {
   font-size: 2rem;
   font-weight: 300;
   font-family: inherit;
   padding: 2rem;
-  /* background-color: green; */
-  height: 70%;
-  width: 80%;
+  /* background-color: blue; */
+  height: 10rem;
+  min-width: 90%;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-around;
   margin-top: -2rem;
-  /* outline: 0.6px dashed rgba(76, 74, 74, 0.3);
-  outline-offset: 3rem;
-  border-radius: 5px; */
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='17' ry='17' stroke='black' stroke-width='1' stroke-dasharray='8%2c 8%2c 21' stroke-dashoffset='1' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 17px;
+}
+
+.modal-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: aliceblue; */
+}
+
+.modal-skills-title {
+  /* margin-left: 4rem; */
+  /* width: 33%; */
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.modal-skills-rating {
+  font-weight: 400;
+  margin-top: 1rem;
+  height: 50%;
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aliceblue; */
+  /* box-shadow: 0 1rem 2rem rgba(34, 34, 34, 0.5); */
+  letter-spacing: 0.5rem;
+  font-size: 5rem;
+  background-image: linear-gradient(to right, #24c6dc, #514a9d);
+  display: inline-block;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .modal-button {
-  padding: 2rem 4rem;
+  padding: 2rem 6rem;
   background-image: radial-gradient(
     circle farthest-corner at 10% 20%,
     rgba(69, 86, 102, 1) 0%,
@@ -72,6 +118,7 @@
   font-size: 2rem;
   text-transform: uppercase;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.6);
+  margin-top: -4rem;
   transition: all 0.4s;
 }
 

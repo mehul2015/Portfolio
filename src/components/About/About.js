@@ -16,20 +16,59 @@ function About() {
   };
 
   const languages = [
-    './images/skills/js.png',
-    './images/skills/ts.png',
-    './images/skills/java.png',
+    {
+      link: './images/skills/js.png',
+      name: 'JavaScript',
+      rating: '*****',
+    },
+    {
+      link: './images/skills/ts.png',
+      name: 'TypeScript',
+      rating: '****',
+    },
+    {
+      link: './images/skills/java.png',
+      name: 'Java',
+      rating: '****',
+    },
   ];
   const frontend = [
-    './images/skills/sass.png',
-    './images/skills/react.png',
-    './images/skills/next.png',
+    {
+      link: './images/skills/sass.png',
+      name: 'SASS',
+      rating: '*****',
+    },
+    {
+      link: './images/skills/react.png',
+      name: 'React.js',
+      rating: '*****',
+    },
+    {
+      link: './images/skills/next.png',
+      name: 'Next.js',
+      rating: '***',
+    },
   ];
+
   const backend = [
-    './images/skills/node.png',
-    './images/skills/express.png',
-    './images/skills/spring.png',
+    {
+      link: './images/skills/node.png',
+      name: 'Node.js',
+      rating: '*****',
+    },
+    {
+      link: './images/skills/express.png',
+      name: 'Express.js',
+      rating: '****',
+    },
+    {
+      link: './images/skills/spring.png',
+      name: 'Spring',
+      rating: '***',
+    },
   ];
+
+  const languagesText = ['JavaScript', 'TypeScript', ''];
 
   return (
     <>

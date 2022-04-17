@@ -25,7 +25,7 @@ function SkillsCard(props) {
           {props.skills.map((skill) => {
             return (
               <div className='skill-icon-container'>
-                <img src={skill} className='skill' />
+                <img src={skill.link} className='skill' alt='skill' />
               </div>
             );
           })}
