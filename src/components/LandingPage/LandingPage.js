@@ -11,7 +11,11 @@ const LandingPage = () => {
       <div className='landing-page-container'>
         <nav className='navbar'>
           <img src='./images/logo.png' alt='my logo' className='logo' />
-          <a href='#home' className='btn btn-primary'>
+          <a
+            href='mailto:mehuldev2015@gmail.com'
+            target='_blank'
+            className='btn btn-primary'
+          >
             Say Hello
           </a>
         </nav>

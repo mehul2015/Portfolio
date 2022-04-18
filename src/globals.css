@@ -45,8 +45,12 @@ a {
 }
 
 .btn-tertiary:hover {
-  transform: translateY(-0.3rem) scale(1.05);
-  box-shadow: 0 1rem 2rem rgba(217, 209, 209, 0.2);
+  transform: translateY(-0.6rem) scale(1.05);
+  /* box-shadow: 0 1rem 2rem rgba(217, 209, 209, 0.2); */
+}
+.btn-tertiary:active {
+  transform: translateY(-0.3rem) scale(1);
+  /* box-shadow: 0 1rem 2rem rgba(217, 209, 209, 0.2); */
 }
 
 .u-margin-bottom-small {

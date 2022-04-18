@@ -3,45 +3,75 @@ import './Footer.css';
 import '../../globals.css';
 
 function Footer() {
+  const handleClick = () => {
+    window.location.href = 'https://www.linkedin.com/in/mehulchattopadhyay/';
+  };
   return (
     <footer className='footer'>
       <div className='hire-me-container'>
-        <p>Download my Resume</p>
+        <p>Download my Resume!</p>
+
         <a href='#' className='btn btn-tertiary'>
           <div className='resume-icon-container'>
-            <img
-              src='./images/footer/resume-4.png'
-              alt='resume'
-              className='resume-image'
-            />
+            <a href='./Resume.pdf' download>
+              <img
+                src='./images/footer/resume-4.png'
+                alt='resume'
+                className='resume-image'
+              />
+            </a>
           </div>
         </a>
       </div>
       <div className='footer-container'>
-        <img src='./images/logo.png' className='logo' alt='logo' />
+        <img
+          src='./images/logo.png'
+          alt='logo'
+          className='logo'
+          onClick={handleClick}
+        />
+
         <div className='social-icons-container'>
-          <img
-            src='./images/footer/instagram.png'
-            alt='instagram'
-            className='social-icon'
-          />
-          <img
-            src='./images/footer/linkedin.png'
-            alt='linkedin'
-            className='social-icon'
-          />
-          <img
-            src='./images/footer/github.png'
-            alt='github'
-            className='social-icon'
-          />
-          <img
-            src='./images/footer/email.png'
-            alt='email'
-            className='social-icon'
-          />
+          <a
+            href='https://www.instagram.com/bengalidrummerboy/'
+            target='_blank'
+          >
+            <img
+              src='./images/footer/instagram.png'
+              alt='instagram'
+              className='social-icon'
+            />
+          </a>
+          <a
+            href='https://www.linkedin.com/in/mehulchattopadhyay/'
+            target='_blank'
+          >
+            <img
+              src='./images/footer/linkedin.png'
+              alt='linkedin'
+              className='social-icon'
+            />
+          </a>
+          <a href='https://github.com/mehul2015' target='_blank'>
+            <img
+              src='./images/footer/github.png'
+              alt='github'
+              className='social-icon'
+            />
+          </a>
+          <a href='mailto:mehuldev2015@gmail.com' target='_blank'>
+            <img
+              src='./images/footer/email.png'
+              alt='email'
+              className='social-icon'
+            />
+          </a>
         </div>
-        <a href='#home' className='btn btn-primary'>
+        <a
+          href='mailto:mehuldev2015@gmail.com'
+          target='_blank'
+          className='btn btn-primary'
+        >
           Say Hello
         </a>
       </div>

@@ -22,14 +22,12 @@ html::-webkit-scrollbar {
   overflow: hidden;
 }
 
-
+*/
 
 body {
   box-sizing: border-box;
   padding: 4rem;
-} 
-
-*/
+}
 
 #portal {
   overflow: hidden;
