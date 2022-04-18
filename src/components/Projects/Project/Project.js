@@ -18,7 +18,11 @@ function Project(props) {
       <div className='links'>
         <span style={{ color: '#409cc9' }}>website:</span>
         <a href={props.project.website} className='btn btn-tertiary'>
-          <img src='./images/website.png' className='code-image new-hover' />
+          <img
+            src='./images/website.png'
+            className='code-image new-hover'
+            alt='website'
+          />
         </a>
       </div>
       <div className='links'>
@@ -27,6 +31,7 @@ function Project(props) {
           <img
             src='./images/github-white.png'
             className='code-image new-hover'
+            alt='github'
           />
         </a>
       </div>

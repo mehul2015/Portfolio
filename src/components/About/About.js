@@ -68,8 +68,6 @@ function About() {
     },
   ];
 
-  const languagesText = ['JavaScript', 'TypeScript', ''];
-
   return (
     <>
       <div className='about-me'>

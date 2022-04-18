@@ -2,7 +2,6 @@ import React from 'react';
 import './SkillsCard.css';
 import '../../globals.css';
 
-import { Bounce } from 'react-awesome-reveal';
 import { AttentionSeeker } from 'react-awesome-reveal';
 
 function SkillsCard(props) {

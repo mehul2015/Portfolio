@@ -31,7 +31,7 @@ function Projects() {
       <div className='projects-container'>
         <div className='imac-image-container'>
           <div className='scroll-down-button'>&darr;</div>
-          <img src='./images/imac.png' className='imac-image' />
+          <img src='./images/imac.png' className='imac-image' alt='imac' />
           <div className='projects-container-code'>
             <div className='code'>
               <div>
@@ -60,7 +60,7 @@ function Projects() {
                 <span style={{ color: 'yellow' }}>&#65371;</span>
                 <br></br>
                 <a href='https://github.com/mehul2015' className='github-link'>
-                  <img src='./images/github-white.png' />
+                  <img src='./images/github-white.png' alt='github-white' />
                   <div>Check out my GitHub!</div>
                 </a>
                 <br></br>

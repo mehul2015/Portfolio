@@ -13,7 +13,11 @@ function Modal(props) {
             return (
               <div className='modal-content'>
                 <div className='modal-skills'>
-                  <img src={skill.link} className='skill-image' />
+                  <img
+                    src={skill.link}
+                    className='skill-image'
+                    alt='skillllzzzz'
+                  />
                 </div>
                 <div className='modal-skills-title'>
                   <p>{skill.name}</p>

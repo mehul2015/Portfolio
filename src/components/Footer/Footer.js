@@ -11,7 +11,7 @@ function Footer() {
       <div className='hire-me-container'>
         <p>Download my Resume!</p>
 
-        <a href='#' className='btn btn-tertiary'>
+        <div className='btn btn-tertiary'>
           <div className='resume-icon-container'>
             <a href='./Resume.pdf' download>
               <img
@@ -21,7 +21,7 @@ function Footer() {
               />
             </a>
           </div>
-        </a>
+        </div>
       </div>
       <div className='footer-container'>
         <img
@@ -35,6 +35,7 @@ function Footer() {
           <a
             href='https://www.instagram.com/bengalidrummerboy/'
             target='_blank'
+            rel='noreferrer'
           >
             <img
               src='./images/footer/instagram.png'
@@ -45,6 +46,7 @@ function Footer() {
           <a
             href='https://www.linkedin.com/in/mehulchattopadhyay/'
             target='_blank'
+            rel='noreferrer'
           >
             <img
               src='./images/footer/linkedin.png'
@@ -52,14 +54,22 @@ function Footer() {
               className='social-icon'
             />
           </a>
-          <a href='https://github.com/mehul2015' target='_blank'>
+          <a
+            href='https://github.com/mehul2015'
+            target='_blank'
+            rel='noreferrer'
+          >
             <img
               src='./images/footer/github.png'
               alt='github'
               className='social-icon'
             />
           </a>
-          <a href='mailto:mehuldev2015@gmail.com' target='_blank'>
+          <a
+            href='mailto:mehuldev2015@gmail.com'
+            target='_blank'
+            rel='noreferrer'
+          >
             <img
               src='./images/footer/email.png'
               alt='email'

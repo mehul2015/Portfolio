@@ -14,6 +14,7 @@ const LandingPage = () => {
           <a
             href='mailto:mehuldev2015@gmail.com'
             target='_blank'
+            rel='noreferrer'
             className='btn btn-primary'
           >
             Say Hello
@@ -32,7 +33,7 @@ const LandingPage = () => {
           <div className='personal-image-container'>
             <img
               src='./images/avatar.jpg'
-              alt='this will be my image'
+              alt='Personal'
               className='personal-image'
             />
           </div>
@@ -40,7 +41,7 @@ const LandingPage = () => {
           <div className='devices-mockup'>
             <img
               src='./images/mockup.svg'
-              alt='Apple Mockup Image'
+              alt='Apple Mockup'
               className='mockup-svg'
             />
           </div>
