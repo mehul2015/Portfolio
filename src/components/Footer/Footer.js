@@ -81,6 +81,7 @@ function Footer() {
           href='mailto:mehuldev2015@gmail.com'
           target='_blank'
           className='btn btn-primary'
+          rel='noreferrer'
         >
           Say Hello
         </a>
