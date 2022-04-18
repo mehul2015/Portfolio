@@ -22,7 +22,7 @@ function Projects() {
   const project3 = {
     title: 'Portfolio',
     description: 'My developer portfolio website',
-    website: '#',
+    website: 'https://master--meek-paletas-92e967.netlify.app',
     sourceCode: 'https://github.com/mehul2015/Portfolio',
   };
 
