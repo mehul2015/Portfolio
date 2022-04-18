@@ -7,6 +7,7 @@ a {
   font-size: 1.6rem;
   border-radius: 3rem;
   text-transform: capitalize;
+  position: relative;
 }
 
 .btn-primary {
@@ -29,6 +30,23 @@ a {
   background-color: rgba(128, 128, 128, 0.6);
   border: 1px solid black;
   color: black;
+}
+
+.btn-tertiary {
+  position: relative;
+  color: rgba(237, 235, 235, 0.744);
+  border: 1px solid rgba(237, 235, 235, 0.744);
+  padding: 1rem 2rem;
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s;
+}
+
+.btn-tertiary:hover {
+  transform: translateY(-0.3rem) scale(1.05);
+  box-shadow: 0 1rem 2rem rgba(217, 209, 209, 0.2);
 }
 
 .u-margin-bottom-small {
