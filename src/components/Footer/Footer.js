@@ -10,7 +10,7 @@ function Footer() {
         <a href='#' className='btn btn-tertiary'>
           <div className='resume-icon-container'>
             <img
-              src='./images/footer/resume-2.png'
+              src='./images/footer/resume-4.png'
               alt='resume'
               className='resume-image'
             />
