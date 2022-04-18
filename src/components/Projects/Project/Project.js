@@ -17,7 +17,12 @@ function Project(props) {
       </div>
       <div className='links'>
         <span style={{ color: '#409cc9' }}>website:</span>
-        <a href={props.project.website} className='btn btn-tertiary'>
+        <a
+          href={props.project.website}
+          className='btn btn-tertiary'
+          target='_blank'
+          rel='noreferrer'
+        >
           <img
             src='./images/website.png'
             className='code-image new-hover'
@@ -27,7 +32,12 @@ function Project(props) {
       </div>
       <div className='links'>
         <span style={{ color: '#409cc9' }}>sourceCode: </span>
-        <a href={props.project.sourceCode} className='btn btn-tertiary'>
+        <a
+          href={props.project.sourceCode}
+          className='btn btn-tertiary'
+          target='_blank'
+          rel='noreferrer'
+        >
           <img
             src='./images/github-white.png'
             className='code-image new-hover'
