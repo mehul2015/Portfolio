@@ -223,3 +223,9 @@ height: 79%; */
     height: 200vh;
   }
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (width: 375px) and (height: 559px) {
+  .about-me {
+    height: 270vh;
+  }
+}

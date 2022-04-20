@@ -125,3 +125,14 @@
     height: 80rem;
   }
 }
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+  .skills-card {
+    height: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (width: 375px) and (height: 559px) {
+  .skills-card {
+    height: 100%;
+  }
+}
