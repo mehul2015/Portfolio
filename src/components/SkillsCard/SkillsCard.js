@@ -11,6 +11,7 @@ function SkillsCard(props) {
       onClick={() => {
         props.onClick();
         props.sendData(props.title, props.skills);
+        document.querySelector('body').style.overflowY = 'hidden';
       }}
     >
       <div className='icon-container'>

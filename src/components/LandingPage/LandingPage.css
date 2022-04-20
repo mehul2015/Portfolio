@@ -1,11 +1,11 @@
 .landing-page {
-  height: 100vh;
+  height: 105vh;
   width: 100%;
   border-bottom: 1px dashed rgba(131, 127, 127, 0.3);
 }
 
 .logo {
-  width: 4%;
+  width: 5%;
   transition: all 0.4s;
 }
 
@@ -53,11 +53,112 @@
 }
 
 .devices-mockup {
-  width: 55%;
+  width: 60%;
   margin: 0 auto;
   margin-top: -8rem;
 }
 
 .mockup-svg {
   width: 100%;
+}
+
+@media (max-width: 1600px) {
+  .devices-mockup {
+    width: 68%;
+  }
+  .landing-page {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 1440px) {
+  .landing-page {
+    height: 90vh;
+  }
+  .logo {
+    width: 5%;
+  }
+}
+
+@media (max-width: 1318px) {
+  .landing-page {
+    height: 83vh;
+  }
+  .logo {
+    width: 6%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .landing-page {
+    height: 90vh;
+  }
+  .logo {
+    width: 6.5%;
+  }
+  .landing-page-content-container {
+    width: 75%;
+  }
+}
+
+@media (max-width: 988px) {
+  .landing-page {
+    height: 86vh;
+  }
+
+  .devices-mockup {
+    width: 80%;
+  }
+}
+
+@media (max-width: 900px) {
+  .landing-page {
+    height: 75vh;
+  }
+  .personal-image {
+    width: 25rem;
+    margin-top: -4rem;
+  }
+  .landing-page-content-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 750px) {
+  .landing-page {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 629px) {
+  .landing-page {
+    height: 65vh;
+  }
+  .landing-page-content-container {
+    width: 100%;
+  }
+  .logo {
+    width: 10%;
+  }
+  .devices-mockup {
+    width: 70%;
+  }
+  .personal-image {
+    width: 20rem;
+  }
+}
+
+@media (max-height: 900px) {
+  .landing-page {
+    height: 101vh;
+  }
+}
+
+@media (max-height: 600px) {
+  .logo {
+    width: 8%;
+  }
+  .landing-page {
+    height: 120vh;
+  }
 }

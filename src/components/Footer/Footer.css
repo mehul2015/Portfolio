@@ -81,3 +81,78 @@
   width: 5.5rem;
   z-index: 500;
 }
+
+@media (max-width: 1285px) {
+  .hire-me-container {
+    top: 30%;
+  }
+
+  .footer-container {
+    top: 70%;
+    width: 85%;
+    height: 75%;
+  }
+}
+
+@media (max-width: 925px) {
+  .hire-me-container {
+    width: 50%;
+  }
+  .footer-container {
+    width: 90%;
+    height: 70%;
+  }
+}
+
+@media (max-width: 645px) {
+  .hire-me-container {
+    width: 55%;
+  }
+  .footer-container {
+    top: 60%;
+    width: 95%;
+    height: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  .hire-me-container {
+    width: 75%;
+  }
+  .footer-container {
+    width: 100%;
+    height: 40%;
+  }
+  .social-icons-container {
+    width: 30%;
+  }
+}
+
+@media (max-width: 450px) {
+  .hire-me-container {
+    width: 80%;
+  }
+  .footer-container {
+    width: 100%;
+    height: 40%;
+  }
+  .social-icons-container {
+    width: 30%;
+  }
+}
+
+@media (max-height: 800px) {
+  .footer {
+    height: 100vh;
+  }
+  .hire-me-container {
+    top: 30%;
+    height: 20%;
+  }
+}
+
+@media (max-height: 610px) {
+  .footer {
+    height: 75vh;
+  }
+}

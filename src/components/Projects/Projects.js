@@ -75,7 +75,7 @@ function Projects() {
                 <span>
                   "Thank you for visiting my website! Have a great day!"
                 </span>
-                <span style={{ color: 'yellowgreen' }}>)</span>
+                <span style={{ color: 'yellowgreen' }}>);</span>
                 <br></br>
                 <span style={{ color: 'yellow' }}>&#65373;</span>
               </div>

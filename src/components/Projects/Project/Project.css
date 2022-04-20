@@ -54,3 +54,33 @@
   background-clip: text;
   color: transparent;
 }
+
+@media (max-width: 1343px) {
+  .links {
+    width: 38%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .links {
+    width: 40%;
+  }
+}
+
+@media (max-width: 900px) {
+  .code-image {
+    width: 7rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .links {
+    width: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .code-image {
+    width: 5rem;
+  }
+}

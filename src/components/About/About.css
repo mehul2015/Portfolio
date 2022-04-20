@@ -83,3 +83,138 @@
 .span-4::selection {
   background: #7cbc20;
 }
+
+@media (max-width: 1440px) {
+  .heading-secondary-container {
+    width: 67%;
+  }
+}
+@media (max-width: 1200px) {
+  .heading-secondary-container {
+    width: 70%;
+  }
+}
+@media (max-width: 970px) {
+  .heading-secondary-container {
+    width: 65%;
+  }
+}
+
+@media (max-width: 580px) {
+  .heading-secondary-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 424px) {
+  .heading-secondary-container {
+    width: 100%;
+  }
+}
+
+/* width: 75%;
+height: 79%; */
+
+/* @media (max-width: 1360px) {
+  .skills-card-container {
+    width: 80%;
+    height: 74%;
+  }
+} */
+
+/* @media (max-width: 1020px) {
+  .skills-card-container {
+    width: 30%;
+    height: 75%;
+  }
+}
+
+@media (max-width: 860px) {
+  .skills-card-container {
+    width: 31%;
+    height: 70%;
+  }
+}
+
+@media (max-width: 859px) {
+  .skills-card-container {
+    width: 31%;
+    height: 70%;
+  }
+} */
+
+@media (max-width: 1200px) {
+  .about-me {
+    border: none;
+  }
+}
+
+@media (max-width: 1020px) {
+  .skills-card-container {
+    width: 90%;
+    height: 75%;
+  }
+  .heading-secondary-container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 859px) {
+  .skills-card-container {
+    width: 100%;
+    height: 80%;
+  }
+  .heading-secondary-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 625px) {
+  .skills-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    row-gap: 3rem;
+  }
+  .skills-card-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 30rem;
+  }
+  .heading-secondary-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 442px) {
+  .skills-card-container {
+    margin-top: 35rem;
+  }
+}
+
+@media (max-height: 900px) {
+  .skills-card-container {
+    width: 90%;
+    height: 75%;
+  }
+  .about-me {
+    width: 100%;
+  }
+}
+
+@media (max-height: 900px) {
+  .skills-card-container {
+    width: 90%;
+    height: 73%;
+  }
+  .about-me {
+    height: 160vh;
+  }
+}
+
+@media (max-height: 700px) {
+  .about-me {
+    height: 200vh;
+  }
+}

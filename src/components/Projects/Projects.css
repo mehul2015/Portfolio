@@ -1,5 +1,5 @@
 .projects {
-  height: 110vh;
+  height: 130vh;
   width: 100%;
   /* background-color: aliceblue; */
   /* margin-top: 2rem; */
@@ -23,7 +23,8 @@
 
 .imac-image-container {
   position: relative;
-  width: 60%;
+  width: 75%;
+  /* margin-top: 15rem; */
   /* filter: saturate(2); */
   /* height: 100%; */
 }
@@ -114,4 +115,101 @@
 }
 .github-link:active {
   transform: translateY(-0.3rem);
+}
+
+@media (max-width: 2000px) {
+  .imac-image-container {
+    width: 68%;
+  }
+}
+
+@media (max-width: 1750px) {
+  .github-link {
+    height: 5rem;
+    width: 40%;
+    font-size: 2.2rem;
+  }
+  .imac-image-container {
+    margin-top: 5rem;
+  }
+  .projects {
+    height: 105vh;
+  }
+}
+
+@media (max-width: 1440px) {
+  .projects {
+    height: 90vh;
+  }
+}
+
+@media (max-width: 1285px) {
+  .github-link {
+    height: 5.3rem;
+    width: 45%;
+    font-size: 2rem;
+  }
+
+  .imac-image-container {
+    width: 88%;
+  }
+}
+
+@media (max-width: 1140px) {
+  .imac-image-container {
+    width: 82%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .projects {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 900px) {
+  .imac-image-container {
+    width: 92%;
+  }
+  .scroll-down-button:hover::after {
+    left: 200%;
+  }
+}
+
+@media (max-width: 640px) {
+  .github-link {
+    height: 7.5rem;
+    width: 52%;
+    font-size: 1.5rem;
+  }
+  .projects {
+    height: 90vh;
+  }
+}
+@media (max-width: 450px) {
+  .github-link {
+    height: 7.5rem;
+    width: 70%;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .imac-image-container {
+    width: 98%;
+    margin-top: 30rem;
+  }
+  .scroll-down-button:hover::after {
+    font-size: 0.7rem;
+    width: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .code {
+    margin-left: 5rem;
+  }
+  .scroll-down-button:hover::after {
+    left: 162%;
+  }
 }

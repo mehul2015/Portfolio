@@ -2,7 +2,7 @@
   /* background-color: black; */
   height: 85%;
   width: 22%;
-  color: black;
+  /* color: black; */
   /* display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -91,3 +91,31 @@
   filter: blur(0);
   transform: scale(1.2);
 } */
+
+@media (max-width: 1360px) {
+  .skills-card {
+    width: 28%;
+    height: 80%;
+  }
+}
+
+@media (max-width: 1020px) {
+  .skills-card {
+    width: 30%;
+    height: 75%;
+  }
+}
+
+@media (max-width: 860px) {
+  .skills-card {
+    width: 31%;
+    height: 70%;
+  }
+}
+
+@media (max-width: 442px) {
+  .skills-card {
+    width: 50%;
+    height: 80%;
+  }
+}

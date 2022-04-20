@@ -15,6 +15,11 @@ function About() {
     setSkills(skills);
   };
 
+  const close = () => {
+    setIsOpen(false);
+    document.querySelector('body').style.overflowY = 'scroll';
+  };
+
   const languages = [
     {
       link: './images/skills/js.png',
@@ -118,7 +123,13 @@ function About() {
         </div>
       </div>
       {isOpen && (
-        <Modal onClose={() => setIsOpen(false)} skills={skills} title={title} />
+        <Modal
+          onClose={(e) => {
+            close();
+          }}
+          skills={skills}
+          title={title}
+        />
       )}
     </>
   );

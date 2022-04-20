@@ -32,3 +32,35 @@ body {
 #portal {
   overflow: hidden;
 }
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media (max-width: 1440px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 1081px) {
+  html {
+    font-size: 48%;
+  }
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+}
