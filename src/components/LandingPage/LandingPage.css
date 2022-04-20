@@ -162,3 +162,10 @@
     height: 120vh;
   }
 }
+
+@media (max-width: 368px) {
+  .personal-image {
+    width: 14rem;
+    margin-bottom: 6rem;
+  }
+}
