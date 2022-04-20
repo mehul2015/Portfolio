@@ -59,7 +59,12 @@ function Projects() {
                 <span style={{ color: 'greenyellow' }}>)</span>
                 <span style={{ color: 'yellow' }}>&#65371;</span>
                 <br></br>
-                <a href='https://github.com/mehul2015' className='github-link'>
+                <a
+                  href='https://github.com/mehul2015'
+                  className='github-link'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   <img src='./images/github-white.png' alt='github-white' />
                   <div>Check out my GitHub!</div>
                 </a>
