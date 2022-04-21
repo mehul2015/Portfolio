@@ -247,3 +247,9 @@ height: 79%; */
     height: 250vh;
   }
 }
+
+@media (max-height: 680px) {
+  .about-me {
+    height: 200vh;
+  }
+}
