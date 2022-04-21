@@ -213,3 +213,21 @@
     left: 162%;
   }
 }
+
+@media (max-height: 890px) {
+  .projects {
+    height: 130vh;
+  }
+}
+
+@media (max-height: 650px) {
+  .projects {
+    height: 200vh;
+  }
+}
+
+@media (max-height: 450px) {
+  .projects {
+    height: 250vh;
+  }
+}

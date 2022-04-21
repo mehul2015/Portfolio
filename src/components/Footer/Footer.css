@@ -156,3 +156,10 @@
     height: 75vh;
   }
 }
+
+@media (max-height: 450px) {
+  .hire-me-container {
+    padding: 3rem;
+    margin-bottom: 5rem;
+  }
+}

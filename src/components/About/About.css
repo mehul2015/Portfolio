@@ -229,3 +229,21 @@ height: 79%; */
     height: 270vh;
   }
 }
+
+@media (max-height: 890px) {
+  .about-me {
+    height: 130vh;
+  }
+}
+
+@media (max-height: 645px) {
+  .about-me {
+    height: 200vh;
+  }
+}
+
+@media (max-height: 425px) {
+  .about-me {
+    height: 250vh;
+  }
+}

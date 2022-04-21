@@ -176,3 +176,21 @@
     margin-bottom: 8rem;
   }
 }
+
+@media (max-height: 890px) {
+  .landing-page {
+    height: 130vh;
+  }
+}
+
+@media (max-height: 645px) {
+  .landing-page {
+    height: 200vh;
+  }
+}
+
+@media (max-height: 425px) {
+  .landing-page {
+    height: 250vh;
+  }
+}
